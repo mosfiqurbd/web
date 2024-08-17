@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">  
+    <head>
+
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=chrome">
+        <meta name="author" content="Mosfiqur"/>
+        <meta name="keywords" content="html"/>
+<title> My portfolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <header>
+    <nav>
+<ul>
+    <li>
+        <a href="#about">About Me</a>
+    </li>
+
+    <li><a href="#Skills">Skills</a></li>
+                <li>
+                    <a href="#Projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#Contact">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+        <main>
+         
+            <!--section:intro-->
+
+         <section id="intro" class="intro card">
+<h1 class="intro__title">Mosfiqur Rahman</h1>
+<p class="intro__description">
+    <em>Web Developer & Computer science Student</em></p>
+
+<div>
+        </section>
+     <!--section:about me-->  
+     <section id="About me" class="card">
+        
+        <h2>About Me</h2>
+        <img src="mrs.jpg"hight="300" width=300 alt="Mosfiqur"/>
+        <p><strong>Experience:</strong>2 years Experience in Job</p>
+        <p><strong>Education:</strong>Bsc in CSE</p>
+        <button>Hello1</button>
+        <button>Hello2</button>
+
+     </section>
+
+<table border="1" cellpadding="5" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Degree</th>
+            <th>Passing Years</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Bsc in CSE</td>
+            <td>Runnig</td>
+        </tr>
+    <tr>
+        <td>HSC</td>
+        <td>2020</td>
+    </tr>
+    <tr>
+        <td>SSC</td>
+        <td>2018</td>
+    </tr>
+</tbody>
+</table>
+            <section id="Skilles" class="card">
+         <h2> Skills</h2>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>C</li>
+            <li>C++</li>
+        </ol>
+    </section>
+    <h3>Skilles Progress</h3>
+    <div>
+    <label for="htmlprogress">HTML:</label>
+    <progress></progress>
+    </div>
+    <div>
+    <label for="htmlprogress">HTML:</label>
+    <progress id="htmlprogress" value="90" max="100">90%</progress>
+    </div>
+    <div>
+        <label for="=cssprogress">CSS:</label>
+        <progress id="cssprogress" value="85" max="100">85</progress>
+    </div>
+    <div>
+        <label for="jsprogress">Javascript:</label>
+        <progress id="jsprogress" value="75" max="100">75</progress>
+    </div>
+    <h3>Experience</h3>
+    <div>
+        <label for="Experiencelevel">Experience</label>
+        <meter id="Experiencelevel" min="0" max="10" value="2">2 years</meter>
+    </div>
+    <!--section:Projects-->
+    <section id=Projects>
+        <h2>Projects</h2>
+        <ul type="circle">
+            <li>E-commerce website</li>
+            <li>Blog website</li>
+        </ul>
+
+    
+<!--section:contact-->
+<saction id="Contact" class="card">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/xgeggrjq"
+    method="POST">
+     <div>  
+    <label for="name">Name:</label>
+    <input type="text" id="name"name="name" /><br/>
+   
+    <label for="email">Email:</label>
+    <input type="email" id="email"email="email"/><br/>
+    
+    <label for="age">Age:  </label>
+    <input type="number" id="age"name="age" min="18"max="55" required/><br/>
+    
+    <div>
+    <leble for="website">Website:</leble>
+    <input type="url" id="website" name="website" pattern="https?//.+"/>
+    <div>
+        <label for="subject">Subject:</label>
+<select name="subject" id="subject">
+    <option value="inquiry">inquiry</option> 
+    <option value="feedback">Feedback</option> 
+    <option value="Job">Job opportunity</option>
+    </div> <br/>
+    </select>
+    </div>
+    <div>
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="20"rows=10></textarea>
+        
+
+    </div>
+</div>
+    <div>
+    <button type="Submit">Submit</button>
+    <button type="reset">Clear</button>
+    </div>
+    <fieldset>
+<legend>Personal Information</legend>
+        <div>  
+            <label for="name">Name:</label>
+            <input type="text" id="name"name="name" /><br/>
+             
+                <label for="email">Email:</label>
+                <input type="text" id="email"email="email" />
+                <div>
+                    <label for="age">Age:</label>
+                    <input type="number" id="age"name="age" min="18"max="55" required/>
+    
+                    <div>
+                        <span>Choose Gender:</span>
+                        <input type="radio" id="male" name="gender"
+                        value="male"/>
+                        <span>Male</span>
+                        <input type="radio" id="Female" name="gender"
+                        value="Female"/>
+                        <span>Female</span>
+                    </div>
+                </div>
+            
+    </fieldset>
+    
+</from>
+
+</select>
+<br/>
+&copy;Copyright reserved by Mosfiqur2024 
+</section>
+<!--section:footer-->
+<footer>
+    <a href="tel:01622712234">Call Me</a>
+    <a href="email to:moshfiqurrahim2018@gmail.com">Email Me</a>
+    <h3>Follow Me</h3>
+    <ul>
+    <li>
+        <a>
+            <a href="https//www.youtube.com/Channel/UCmhNPkbR0HNdW0qSdpcOOzA"target="_blank">
+            <i class="fa-brands fa-youtube"></i>
+            My youtube Channel
+        </a>
+        </li>
+        <li>
+        <a href="https://www.facebook.com/moshfiqurrahimbd?mibextid=ZbWKwL" target="_blank">
+
+                <i class="fa-brands fa-facebook"></i>  
+                 My Facebook ID
+            </a>
+        </li>
+
+        <li>
+<a href="https://www.linkedin.com/in/mushfiqur-rahman-a87633301?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"> 
+    <i class="fa-brands fa-linkedin"></i>  My Linkedin ID
+
+</a>
+</li>
+<li>
+    <a href="https://www.instagram.com/moshfiqurbd?igsh=YzljYTk1ODg3Zg==" target="_blank">
+        <i class="fa-brands fa-instagram"></i> My instagram ID
+
+    </a>
+</li>
+<li>
+    <a href="https://www.wa.me/qr/IUL2B4UHBUGKB1" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i> My Whatsapp ID
+
+    </a>
+</li>
+        
+
+    </ul>
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116544.19892544026!2d90.02879114898697!3d24.10127685430504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755fdb28eec55c5%3A0x1117679d80957ff!2z4Kau4Ka_4Kaw4KeN4Kac4Ka-4Kaq4KeB4Kaw!5e0!3m2!1sbn!2sbd!4v1718534262487!5m2!1sbn!2sbd" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<title="Home Map"></title>
+    </div>
+</footer>
+</main>
+</body>
+
+
+        </html
